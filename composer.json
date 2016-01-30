@@ -1,3 +1,27 @@
 {
-  "name": "xtain/composer-runner"
+    "name": "xtain/composer-runner"
+    "type": "library",
+    "description": "Helper to run composer from php",
+    "keywords": ["Composer"],
+    "homepage": "https://xtain.net/",
+    "authors": [
+        {
+            "name": "Maximilian Ruta",
+            "email": "mr@xtain.net",
+            "homepage": "http://xtain.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.xtain.net"
+        }
+    ],
+    "require": {
+        "symfony/process": "~2"
+    },
+    "autoload": {
+        "psr-4": { "XTAIN\\Composer\\Runner\\": "" }
+    }
 }
+
