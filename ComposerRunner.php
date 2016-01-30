@@ -46,6 +46,11 @@ class ComposerRunner
 
     /**
      * Executes a Composer Command
+     *
+     * @param string   $command
+     * @param array    $arguments
+     * @param callback $output
+     * @param int      $timeout
      */
     public function execute($command, $arguments = array(), $output = null, $timeout = self::PROCESS_TIMEOUT)
     {
