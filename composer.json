@@ -18,6 +18,7 @@
         }
     ],
     "require": {
+        "symfony/filesystem": "~2",
         "symfony/process": "~2"
     },
     "autoload": {
