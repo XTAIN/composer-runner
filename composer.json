@@ -1,5 +1,5 @@
 {
-    "name": "xtain/composer-runner"
+    "name": "xtain/composer-runner",
     "type": "library",
     "description": "Helper to run composer from php",
     "keywords": ["Composer"],
