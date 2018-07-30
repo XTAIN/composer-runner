@@ -1,6 +1,7 @@
 {
     "name": "xtain/composer-runner",
     "type": "library",
+    "license": "MIT",
     "description": "Helper to run composer from php",
     "keywords": ["Composer"],
     "homepage": "https://xtain.net/",
